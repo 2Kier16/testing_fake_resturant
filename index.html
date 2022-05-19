@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Kier's Place</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+
+</head>
+<style>
+    body {
+        background-image: url("photo-1484659619207-9165d119dafe.avif");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <p>TK Steak House</p>
+    </div>
+
+
+    <div class="container">
+        <h1>MAINS</h1>
+        <h3>(Each selection comes with your choice of 2 sides.)</h3>
+
+        <div class="item-container">
+
+            <div class="item bone-in-ribeye">
+                <h2 class="item-title">Bone in Ribeye </h2>
+                <img src="/istockphoto-1322558481-612x612 (1).jpg">
+                <p class="item-desc">Wet aged and exquisitely marbled, you can't find better Prime Beef than our USDA Prime Ribeye Steak. (Grilled to your desired temp.)</p>
+                <p class="item-price">34.00</p>
+                <button onclick="addedToCart('bone-in-ribeye')" class="item">Add to Order</button>
+            </div>
+
+
+            <div class="item chilean-sea-bass">
+                <h2 class="item-title">Chilean Sea Bass </h2>
+                <img src="/istockphoto-879484996-612x612.jpg">
+                <p class="item-desc">Rich buttery sea bass served on top of beautifully seasoned sauted spinach. </p>
+                <p class="item-price">28.00</p>
+                <button onclick="addedToCart('chilean-sea-bass')" class="item">Add to Order</button>
+            </div>
+            <div class="item honey-roast-chick">
+                <h2 class="item-title">Chile-Roasted Chicken with Honey</h2>
+                <img src="https://static01.nyt.com/images/2021/05/12/dining/07Apperex/merlin_187049343_db262ec3-d01c-4c2f-a2c6-ed6c151584db-articleLarge.jpg">
+                <p class="item-desc">A little sweet, a little spicy with a hint of citrous. Served with feta, lemon, honey, rosemary, and red-pepper flakes.</p>
+                <p class="item-price">22.00</p>
+                <button onclick="addedToCart('honey-roast-chick')" class="item">Add to Order</button>
+            </div>
+
+            <h1>Sides</h1>
+
+
+            <div class="item mixed-veggies">
+                <h2 class="item-title">Steamed-Vegetables</h2>
+                <img src="/19986-steamed-vegetables-with-herb-stir-ins-600x600.jpg">
+                <p class="item-desc">Steamed vegetables topped with a citrus-pepper butter that dances on the pallet.</p>
+                <p class="item-price">6.99</p>
+                <button onclick="addedToCart('mixed-veggies')" class="item">Add to Order</button>
+            </div>
+
+
+            <div class="item roasted-potatoes">
+                <h2 class="item-title">Rosemary and Garlic Roasted Potatoes</h2>
+                <img src="/istockphoto-105491234-612x612.jpg">
+                <p class="item-desc">A handful of sprigs beef sautéed with white wine and rosemary mingle with garlic drizzled over roasted potatoes.</p>
+                <p class="item-price">7.99</p>
+                <button onclick="addedToCart('roasted-potatoes')" class="item">Add to Order</button>
+            </div>
+
+
+            <div class="item fig-salad">
+                <h2 class="item-title">Fig, Feta and Watermelon Salad w/Balsamic Dressing</h2>
+                <img src="/ccd05582e4adb04e80ca75e34097a830.jpg">
+                <p class="item-desc">Figs, arugula, watermelon, red onion, feta cheese, and mint leaves.</p>
+                <p class="item-price">8.99</p>
+                <button onclick="addedToCart('fig-salad')" class="item">Add to Order</button>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="selected-population">
+            <button onclick="showTotal()" class="get-total">YOUR TOTAL</button>
+            <div class="total"></div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

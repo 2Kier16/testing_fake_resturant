@@ -1,0 +1,127 @@
+body img {
+    box-shadow: 1px 1px 2px rgb(14, 14, 14), 0 0 1em rgb(194, 192, 192), 0 0 0.2em rgb(255, 255, 255);
+    height: 250px;
+    width: 40%;
+    border-radius: 550px;
+}
+
+h1 {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    text-decoration: underline rgb(228, 174, 174);
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.bone-in-ribeye {
+    margin-top: 0px;
+    margin-bottom: 200px;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.chilean-sea-bass {
+    margin-top: 0px;
+    margin-bottom: 200px;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.honey-roast-chick {
+    margin-top: 0px;
+    margin-bottom: 200px;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.mixed-veggies {
+    margin-top: 0px;
+    margin-bottom: 200px;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.roasted-potatoes {
+    margin-top: 0px;
+    margin-bottom: 200px;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.fig-salad {
+    margin-top: 0px;
+    margin-bottom: 200px;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5em;
+    color: rgb(254, 213, 112);
+    margin-bottom: 15px;
+    margin: 30px;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px rgb(255, 80, 80), 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.container {
+    display: block;
+    width: 100%;
+   text-align: center; 
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(7, 219, 247);
+    margin-bottom: 5px;
+    margin: 1em;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    padding: 5 10px;
+}
+
+button {
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: large;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgb(255, 113, 113), 0 0 1em blue, 0 0 0.2em blue;
+    background-color: rgb(30, 238, 253);
+}
+
+.item-price {
+    flex-grow: 1;
+    color: rgb(254, 213, 112);
+}
+
+.item-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(254, 213, 112);
+    margin-bottom: 15px;
+    margin: 30px;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
